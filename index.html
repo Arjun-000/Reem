@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reem</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body >
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light  bg-transparent ">
+            <div class="container-fluid">
+                <a class=" ms-4 link-light rosa" href="#">REEM</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-white hov">
+                        <li class="nav-item ">
+                            <a class="nav-link fw-bold   " aria-current="page" href="#">Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold   " aria-current="page" href="#">Add Restaurants</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold  " aria-current="page" href="#">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold  " aria-current="page" href="#">Log In</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        <div class=" weldiv">
+            <h1 class="welcome ">R<span class="w">eem</span></h1>
+            <h2 class="text-white">Discover the best foods & drinks in Kochi</h2>
+
+            <div class="container mt-4 d-flex justify-content-center">
+              <div class="input-group rounded shadow-sm custom-width">
+                  <!-- Location Dropdown -->
+                  <div class="input-group-prepend">
+                      <button class="btn btn-light dropdown-toggle d-flex align-items-center searchbutton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fas fa-map-marker-alt text-danger me-2"></i> Kochi
+                      </button>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Kochi</a></li>
+                          <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                          <li><a class="dropdown-item" href="#">Delhi</a></li>
+                      </ul>
+                  </div>
+          
+                  <!-- Search Icon -->
+                  <span class="input-group-text bg-white border-end-0">
+                      <i class="fas fa-search"></i>
+                  </span>
+          
+                  <!-- Search Input -->
+                  <input type="text" class="form-control border-start-0" placeholder="Search for restaurant, cuisine or a dish">
+              </div>
+          </div>
+          
+            
+        </div>
+    </header>
+    <div class="cont">
+      <div class="row ord">
+        <div class="col  pt-5">
+          <div class="card " style="width: 100%;" >
+            <img src="./images/steak.png" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+              <h5 class="card-title">Order Food</h5>
+              <p class="card-text">Stay home and order to your doorstep</p>
+              
+            </div>
+        </div>
+        </div>
+       <div class="col pt-5 ord1" >
+          <div class="card" style="width: 100%;">
+            <img src="./images/fine-dining-table.jpg" class="card-img-top" alt="..." height="200px">
+            <div class="card-body" >
+              <h5 class="card-title">Dinning</h5>
+              <p class="card-text">View the cities finest dinning venues.</p>
+              
+            </div>
+          </div>
+       </div>
+      </div>
+      <div class="collections">
+        <br>
+        
+          <h1>Collections</h1>
+          <div class="row">
+          <p class="col-9">Explore curated lists of top restaurants, cafes, pubs, and bars in Kochi, based on trends</p>
+          <div class="col allink"><a href="">All Collections in Kochi <span><i class="fa-solid fa-caret-right"></i></span></a></div>
+        </div>
+        <div class="my-4">
+          <div class="row g-3">
+            <!-- Card 1 -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./images/art.avif" alt="Art Lovers">
+                <div class="card-body">
+                  <h5>8 Places for Art Lovers</h5>
+                  <p>7 Places</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./images/cafe.avif" alt="Great Cafes">
+                <div class="card-body">
+                  <h5>14 Great Cafes</h5>
+                  <p>11 Places</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./images/kuzhi.avif" alt="Authentic Cuisine">
+                <div class="card-body">
+                  <h5>6 Places for Authentic Cuisine</h5>
+                  <p>5 Places</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./images/legend.jpg" alt="Legendary Places">
+                <div class="card-body">
+                  <h5>5 Must-visit Legendary Places</h5>
+                  <p>5 Places</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <br>
+        <h1>Popular localities in and around <span class="kochi">Kochi</span></h1>
+        <br>
+        <div class="my-4">
+
+          <div class="row g-3">
+            <!-- Card 1 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div>
+                  <strong>Kakkanad</strong>
+                  <p class="place-count">516 places</p>
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div>
+                  <strong>Edappally</strong>
+                  <p class="place-count">371 places</p>
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div>
+                  <strong>Fort Kochi</strong>
+                  <p class="place-count">138 places</p>
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div>
+                  <strong>Panampilly Nagar</strong>
+                  <p class="place-count">109 places</p>
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div>
+                  <strong>MG Road</strong>
+                  <p class="place-count">100 places</p>
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div>
+                  <strong>Kacheripady</strong>
+                  <p class="place-count">125 places</p>
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div>
+                  <strong>Palarivattom</strong>
+                  <p class="place-count">171 places</p>
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+            <!-- Card 8 (See more) -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div>
+                  <strong>Vyttila</strong>
+                  <p class="place-count">138 places</p>
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+            <!-- Card 9 (See more) -->
+            <div class="col-md-4 col-sm-6">
+              <div class="place-card">
+                <div style="padding: 19px 0px;">
+                  <strong>See more</strong>
+                  
+                </div>
+                <span>&#8250;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="dwnld ">
+      <div class="dwldimg">
+        <img src="./images/phone.avif" alt="" width="100%">
+      </div>
+      <div class="dwnldcont">
+        <h1>Get the Reem app</h1>
+        <p>We will send you a link, open it on your phone to download the app</p>
+        <div class="form">
+          <input type="radio" name="email" value="Email" id="email">
+          <label for="email">Email</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <input type="radio" name="phone" value="Phone" id="phone">
+          <label for="phone">Phone</label>
+        </div>
+        <div class=" mt-4 d-flex " >
+          <div class="input-group rounded" style="width: 500px;">
+              <div class="input-group-prepend">
+                  <button class="btn btn-light dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       +91
+                  </button>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">+971</a></li>
+                      <li><a class="dropdown-item" href="#">+125</a></li>
+                      <li><a class="dropdown-item" href="#">+901</a></li>
+                  </ul>
+              </div>
+              <input type="text" class="form-control border-start-0" placeholder="type here...">&nbsp;&nbsp;&nbsp;&nbsp;
+              <button class="share"><a href="">Share App link</a></button>
+          </div>
+      </div>
+      </div>
+    </div>
+    <footer class="cont">
+      <div class="row ree">
+        <div class="col ">
+          <h1>Reem</h1>
+        </div>
+        <div class=" footcol" >
+          <div class="input-group-prepend " >
+            <button class="btn btn-light dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./images/india.png" alt="" width="25%"> &nbsp;   
+              India
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">UAE</a></li>
+                <li><a class="dropdown-item" href="#">USA</a></li>
+                <li><a class="dropdown-item" href="#">Singapore</a></li>
+            </ul>
+        </div>
+        
+        </div>&nbsp;&nbsp;
+        <div class=" footcol">
+          <div class="input-group-prepend">
+            <button class="btn btn-light dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-globe "> </i>  &nbsp;
+              English
+                 
+            </button>
+            
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Hindi</a></li>
+                <li><a class="dropdown-item" href="#">Malayalam</a></li>
+                <li><a class="dropdown-item" href="#">Tamil</a></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+      <div class="row foot">
+        <div class="col">
+        <ul >
+            <li><a href="">About Reem</a></li>
+            <li><a href="">Who We Are</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Work With Us</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Report Fraud</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        </div>
+        <div class="col">
+          <ul>
+              <li><a href="">About Reem</a></li>
+              <li><a href="">Who We Are</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Work With Us</a></li>
+              <li><a href="">Investor Relations</a></li>
+              <li><a href="">Report Fraud</a></li>
+              <li><a href="">Contact Us</a></li>
+          </ul>
+          </div>
+          <div class="col">
+            <ul>
+                <li><a href="">About Reem</a></li>
+                <li><a href="">Who We Are</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Work With Us</a></li>
+                <li><a href="">Investor Relations</a></li>
+                <li><a href="">Report Fraud</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            </div>
+            <div class="col">
+              <ul>
+                  <li><a href="">About Reem</a></li>
+                  <li><a href="">Who We Are</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Work With Us</a></li>
+                  <li><a href="">Investor Relations</a></li>
+                  <li><a href="">Report Fraud</a></li>
+                  <li><a href="">Contact Us</a></li>
+              </ul>
+              </div>
+              <div class="col">
+                <ul>
+                    <li><a href="">About Reem</a></li>
+                    <li><a href="">Who We Are</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Work With Us</a></li>
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="">Report Fraud</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                </div>
+      </div>
+      <hr>
+      <p style="font-size: 14px; color: rgb(101, 101, 101);">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+    </footer>
+    
+
+  <!-- Add other sections here -->
+ 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
