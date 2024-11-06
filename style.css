@@ -1,11 +1,10 @@
-/* styles.css */
 *{
   box-sizing: border-box;
   padding: 0px;
   border: 0px;
 }
 
-body, html {
+html {
     scroll-behavior: smooth;
 
   }
@@ -25,6 +24,10 @@ body, html {
     font-size: xx-large;
     font-family: "Great Vibes", system-ui;
     font-weight: 800;
+    color: white;
+  }
+  .rosa:hover{
+    color: #ffdd00;
   }
   .hov a{
     color: white;
@@ -35,7 +38,7 @@ body, html {
     color: red;
     text-underline-offset: 5px;
   }
-/* Welcome styling */
+
 .welcome {
     font-family: "Great Vibes", system-ui;
     line-height: 0.5;
@@ -47,7 +50,7 @@ body, html {
     font-size: 4rem;
   }
   
-  /* Main div styling */
+  
   .weldiv {
     display: flex;
     text-align: center;
@@ -161,7 +164,7 @@ body, html {
   font-size: large;
 }
 input[type="radio"] {
-  accent-color: #ff0000; /* Your desired color */
+  accent-color: #ff0000; 
 }
 .share{
   padding: 0px 20px;
@@ -170,9 +173,7 @@ input[type="radio"] {
 .dwnldcont{
  padding: 130px 0px;
 }
-.form{
 
-}
 .share{
   border-radius: 5%;
   background-color: rgb(245, 80, 80);
@@ -227,4 +228,36 @@ width: 120px;
 }
 footer{
   overflow: hidden;
+}
+.icons-collection{
+  display: grid;
+  grid-template-columns: repeat(5,0fr);
+  gap: 3px;
+}
+.icons{
+  padding: 1px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+.icons:hover{
+  
+  transform: scale(1.05);
+}
+::-webkit-scrollbar{
+  width: 10px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #f0f0f0;
+}
+::-webkit-scrollbar-thumb{
+  background-color: orange;
+  border-radius: 15px;
 }
